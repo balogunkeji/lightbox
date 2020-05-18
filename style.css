@@ -13,12 +13,9 @@ body,html,.card{
 
 img{
     width: 100%;
-    max-width: 90%;
+    max-width: 100%;
     border: 0;
     object-fit: cover;
-}
-
-#myImg{
     border-radius: 20px;
     height: auto;
     transition: transform 0.2s ease;
@@ -36,7 +33,7 @@ img:hover{
 
  .card-image:hover >.img:not(:hover){
     filter: brightness(0.5) saturate(0) contrast(1.2) blur(20px);
-  }t
+  }
 
  .img{
      flex-grow: 1;
@@ -61,7 +58,7 @@ img:hover{
     display: none;
     position: fixed;
     z-index: 3;
-    padding-top: 100px;
+    padding-top: 60px;
     left: 0;
     top: 0;
     max-width: 100%;
@@ -74,7 +71,7 @@ img:hover{
     margin: 50px auto;
     display: block;
     width: 70%;
-    max-width: 650px;
+    max-width: 600px;
     transform: scale(.8);
 }
 
@@ -94,3 +91,24 @@ span{
     text-decoration: none;
     cursor: pointer;
 }
+
+/* @media only screen and (min-width: 780px){
+    img{
+        max-width: 100%;
+        width: 100%
+    }
+
+    .img{
+        flex-grow: 1;
+        height: auto;
+        width: 35%;
+   }
+
+   .modal{
+       padding: 50px;
+   }
+   
+   
+
+
+} */
