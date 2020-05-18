@@ -13,7 +13,7 @@ body,html,.card{
 
 img{
     width: 100%;
-    max-width: 100%;
+    max-width: 90%;
     border: 0;
     object-fit: cover;
 }
@@ -36,7 +36,7 @@ img:hover{
 
  .card-image:hover >.img:not(:hover){
     filter: brightness(0.5) saturate(0) contrast(1.2) blur(20px);
-  }
+  }t
 
  .img{
      flex-grow: 1;
