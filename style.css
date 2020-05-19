@@ -15,7 +15,7 @@ img{
     width: 100%;
     max-width: 100%;
     border: 0;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 20px;
     height: auto;
     transition: transform 0.2s ease;
@@ -36,9 +36,9 @@ img:hover{
   }
 
  .img{
-     flex-grow: 1;
+     flex-grow: auto;
      height: auto;
-     width: 46%;
+     width: 45%;
 } 
 
 .card-image{
@@ -46,7 +46,7 @@ img:hover{
     height: auto;
     border: 0;
     flex-wrap: wrap;
-    /* align-items: center; */
+    padding: 20px;
 }
 
 .card-image > .img{
@@ -58,7 +58,7 @@ img:hover{
     display: none;
     position: fixed;
     z-index: 3;
-    padding-top: 50px;
+    padding-top: 100px;
     left: 0;
     top: 0;
     max-width: 100%;
@@ -92,23 +92,29 @@ span{
     cursor: pointer;
 }
 
-/* @media only screen and (min-width: 780px){
+@media only screen and (min-width: 780px){
     img{
         max-width: 100%;
-        width: 100%
     }
 
     .img{
         flex-grow: 1;
         height: auto;
-        width: 35%;
+        width: 20%;
+   }
+
+   .modal-content{
+       margin: 50px auto;
+       display: block;
+       max-width: 40%;
    }
 
    .modal{
-       padding: 50px;
+       min-width: 100%;
+       padding-top: 50px;
    }
    
    
 
 
-} */
+}
