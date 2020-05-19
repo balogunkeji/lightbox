@@ -57,8 +57,8 @@ img:hover{
 .modal{
     display: none;
     position: fixed;
-    z-index: 3;
-    padding-top: 100px;
+    z-index: 4;
+    padding-top: 40px;
     left: 0;
     top: 0;
     max-width: 100%;
@@ -113,8 +113,5 @@ span{
        min-width: 100%;
        padding-top: 50px;
    }
-   
-   
-
 
 }
